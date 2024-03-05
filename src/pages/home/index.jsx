@@ -3,7 +3,7 @@ export default function HomePage(){
         <>
         <div className="bg-cover bg-[url('https://c4.wallpaperflare.com/wallpaper/632/34/549/technology-monitor-alpha-coders-binary-wallpaper-preview.jpg')] h-[600px] rounded-b-lg flex justify-center items-center font-bold text-white text-xl text-center">
            <div className="flex flex-col justify-center items-center">
-            <img src="/public/fotoku.jpg" alt="" className="h-[300px] lg:h-[400px] rounded-lg"/>
+            <img src={"/public/fotoku.jpg"} alt="" className="h-[300px] lg:h-[400px] rounded-lg"/>
             <h1 className="mt-5 text-2xl" id="typewriter">
             Halo nama saya Prabu
            </h1>
@@ -19,7 +19,7 @@ export default function HomePage(){
         <h1 className="font-bold text-lg text-center mt-5">Proyek</h1>
         <div className="grid grid-rows-2">
             <div className="max-w-xs md:max-w-md lg:max-w-xl rounded overflow-hidden shadow-2xl m-auto mt-4 mb-4">
-                <img src="/public/smartdivitar.png" alt="" className="h-[300px] w-[300px] p-5 m-auto"/>
+                <img src={"/public/smartdivitar.png"} alt="" className="h-[300px] w-[300px] p-5 m-auto"/>
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
                         Smart Divitar
@@ -31,7 +31,7 @@ export default function HomePage(){
                 </div>
             </div>
             <div className="max-w-xs md:max-w-md lg:max-w-xl rounded overflow-hidden shadow-2xl m-auto mt-4 mb-4">
-                <img src="/public/bookforyou.jpeg" alt="" className="h-[300px] w-[300px] p-5 m-auto"/>
+                <img src={"/public/bookforyou.jpeg"} alt="" className="h-[300px] w-[300px] p-5 m-auto"/>
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
                         Book For You
