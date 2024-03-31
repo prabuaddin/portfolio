@@ -8,10 +8,11 @@ export default {
     extend: {
       fontFamily: {
         'roboto' : ['Roboto', 'sans-serif'],
-        'rubik': ['Rubik Glitch Pop', 'system-ui']
+        'rubik': ['Rubik Glitch Pop', 'system-ui'],
+        'silkscreen': ['Silkscreen', 'sans-serif']
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
